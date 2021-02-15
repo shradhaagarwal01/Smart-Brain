@@ -1,68 +1,80 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center"> Smart-Brain </h1> <br>
+Smart-Brain uses Clarifai API to detect face in an image. It helps to detect face in a picture provided by user through URL of image. User's rank gets upgraded everytime user detects image in a picture.
 
-## Available Scripts
+### Live Demo : https://shradha-smart-brain.herokuapp.com/
+## Technologies Used
+### Front-End
+* HTML5
+* CSS3
+* React.js
 
-In the project directory, you can run:
+### Back-End
+* Node.js
+* Express.js
+* PostgreSQL
 
-### `npm start`
+### NPM Packages
+* Create-React-App
+* Tachyons
+* react-tilt
+* particles.js
+* Bcrypt
+* Postgresql
+* knex
+* body parser
+* cors
+* express
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Steps:
 
-### `npm test`
+**To Properly Start React App in the Browser:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Please clone or download this repo on to your desktop
+2. Open up a terminal window and CD into Smartbrain-React-master directory 
+3. Run NPM Install in the terminal window pointing to the Smartbrain-React-master directory { to download npm modules and dependencies (Package.json files are included in repo)}
+4. Run NPM Start in the terminal window pointing to the Smartbrain-React-master directory
 
-### `npm run build`
+**To Run Clarifai's Facial Recognition API:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. Find a Picture of a Person and 'Copy image address'.
+6. Paste the Image Address into the white textbox (in the middle of the screen) and Click 'Detect' Button
+7. Watch the facial recognition box appear over the person like magic :)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+**Extra! 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+8. Hover over the SmartBrain Logo on the top left side of the screen right under the words 'SmartBrain App' and watch the SmartBrain Tilt!
 
-### `npm run eject`
+### Development
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Want to contribute? Great!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To fix a bug or enhance an existing module, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -m 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Bug / Feature Request
 
-## Learn More
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/shradhaagarwal01/Smart-Brain/issues/new) by including your search query and the expected result.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/shradhaagarwal01/Smart-Brain/issues/new). Please include sample queries and their corresponding results.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Built with
 
-### Code Splitting
+- [ReactJS](https://reactjs.org/) - React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
+- [NPM](https://www.npmjs.com/) - npm is the package manager for JavaScript and the world’s largest software registry. Discover packages of reusable code — and assemble them in powerful new ways.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Sources-Used
 
-### Analyzing the Bundle Size
+Clarifai Face Detection API
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Developer
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[Shradha Agarwal](https://github.com/shradhaagarwal01)
