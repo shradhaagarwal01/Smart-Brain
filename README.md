@@ -1,58 +1,68 @@
-<h1 align="center"> Smart-Brain </h1> <br>
-Smart-Brain uses Clarifai API to detect face in an image. It helps to detect face in a picture provided by user through URL of image. User's rank gets upgraded everytime user detects image in a picture.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Technologies Used
-### Front-End
-* HTML5
-* CSS3
-* React.js
+## Available Scripts
 
-### Back-End
-* Node.js
-* Express.js
-* PostgreSQL
+In the project directory, you can run:
 
-### NPM Packages
-* Create-React-App
-* Tachyons
-* react-tilt
-* particles.js
-* Bcrypt
-* Postgresql
-* knex
-* body parser
-* cors
-* express
+### `npm start`
 
-### Development
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Want to contribute? Great!
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-To fix a bug or enhance an existing module, follow these steps:
+### `npm test`
 
-- Fork the repo
-- Create a new branch (`git checkout -b improve-feature`)
-- Make the appropriate changes in the files
-- Add changes to reflect the changes made
-- Commit your changes (`git commit -m 'Improve feature'`)
-- Push to the branch (`git push origin improve-feature`)
-- Create a Pull Request
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Bug / Feature Request
+### `npm run build`
 
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/shradhaagarwal01/Smart-Brain/issues/new) by including your search query and the expected result.
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/shradhaagarwal01/Smart-Brain/issues/new). Please include sample queries and their corresponding results.
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-## Built with
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- [ReactJS](https://reactjs.org/) - React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
-- [NPM](https://www.npmjs.com/) - npm is the package manager for JavaScript and the world’s largest software registry. Discover packages of reusable code — and assemble them in powerful new ways.
+### `npm run eject`
 
-## Sources-Used
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Clarifai Face Detection API
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Developer
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-[Shradha Agarwal](https://github.com/shradhaagarwal01)
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
